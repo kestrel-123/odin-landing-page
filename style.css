@@ -1,2 +1,41 @@
 /* style.css */
 
+html {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 18px;
+}
+.header-logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: #f9faf8;
+}
+.header-links {
+    display: flex;
+    gap: 18px;
+}
+.header-links ul {
+    margin: 0;
+    padding:0;
+}
+.header-links a {
+    text-decoration: none;
+    color: cornsilk;
+}
+.header-links li {
+    list-style-type: none;
+}
+.sign-up {
+    background-color:cornflowerblue;
+    color: cornsilk;
+    border: 1px solid cornsilk;
+    border-radius: 18px;
+    padding: 8px 24px;
+    font-size: 24px;
+}
