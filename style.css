@@ -2,19 +2,33 @@
 
 html {
     box-sizing: border-box;
+    font-family: "Bonbon", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
+.bonbon-regular {
+    font-family: "Bonbon", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
 
 .header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1f2937;
-    padding: 18px;
+    background-color: thistle;
 }
 .header-logo {
     font-size: 24px;
     font-weight: 600;
-    color: #f9faf8;
+    color: snow;
 }
 .header-links {
     display: flex;
@@ -26,16 +40,68 @@ html {
 }
 .header-links a {
     text-decoration: none;
-    color: cornsilk;
+    color: snow;
 }
 .header-links li {
     list-style-type: none;
 }
+.header {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.center-content {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.center-1 {
+    display: flex;
+    background-color: thistle;
+    padding: 50px;
+    border: 1px solid rebeccapurple;
+    color: snow;
+}
+.c1-text {
+    width: 50%;
+    border: 1px solid rebeccapurple;
+}
+.c1-img {
+    border: 1px solid rebeccapurple;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .sign-up {
     background-color:cornflowerblue;
     color: cornsilk;
-    border: 1px solid cornsilk;
+    border: 1px solid cornflowerblue;
     border-radius: 18px;
     padding: 8px 24px;
     font-size: 24px;
+    font-family: "Bonbon";
+    cursor: pointer;
+}
+
+.center-2 {
+    border: 1px solid rebeccapurple;
+}
+
+.center-3 {
+    border: 1px solid rebeccapurple;
+}
+
+.center-4 {
+    border: 1px solid rebeccapurple;
+}
+
+.footer {
+    width: 800px;
+    margin: 0 auto;
 }
