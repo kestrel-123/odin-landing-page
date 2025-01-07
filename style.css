@@ -6,6 +6,7 @@ html {
     font-weight: 400;
     font-style: normal;
 }
+
 .bonbon-regular {
     font-family: "Bonbon", cursive;
     font-weight: 400;
@@ -21,7 +22,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: thistle;
 }
@@ -29,10 +30,12 @@ body {
     font-size: 24px;
     font-weight: 600;
     color: snow;
+    padding-left: 40px;
 }
 .header-links {
     display: flex;
     gap: 18px;
+    padding-right: 40px;
 }
 .header-links ul {
     margin: 0;
@@ -42,16 +45,20 @@ body {
     text-decoration: none;
     color: snow;
 }
+.header-links a:hover {
+    text-decoration: underline wavy;
+}
 .header-links li {
     list-style-type: none;
 }
+
 .header {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
 }
 
 .center-content {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -62,20 +69,103 @@ body {
 .center-1 {
     display: flex;
     background-color: thistle;
-    padding: 50px;
-    border: 1px solid rebeccapurple;
+    padding: 40px;
+    gap: 20px;
     color: snow;
+    justify-content: center;
 }
 .c1-text {
     width: 50%;
-    border: 1px solid rebeccapurple;
 }
+    
 .c1-img {
-    border: 1px solid rebeccapurple;
+    color: black;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: radial-gradient(snow, thistle);
+    cursor: wait;
+}
+
+.center-2 {
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+}
+.c2-header {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 900;
+    padding-top: 30px;
+}
+.c2-image-row {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+.c2-pic-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.c2-pic {
+    width: 120px;
+    height: 120px;
+    border: 3px solid thistle;
+    border-radius: 15%;
+    background-image: radial-gradient(snow, thistle);
+    cursor: wait;
+}
+.c2-subtext {
+    width: 120px;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.center-3 {
+    display: flex;
+    justify-content: center;
+    background-color: thistle;
+    color: snow;
+}
+.inspo {
+    width: 70%;
+    font-size: 24px;
+    padding: 30px 0;
+    filter: drop-shadow(3px 3px 5px darkorchid);
+}
+.inspo .author {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.center-4 {
+    width: inherit;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c4-container {
+    width: 80%;
+    background-color: thistle;
+    border: 1px solid snow;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.c4-text h1 {
+    font-size: 20px;
+    padding-top: 10px;
+}
+.c4-text p {
+    font-size: 15px;
 }
 
 .sign-up {
@@ -83,25 +173,19 @@ body {
     color: cornsilk;
     border: 1px solid cornflowerblue;
     border-radius: 18px;
-    padding: 8px 24px;
-    font-size: 24px;
+    padding: 4px 12px;
+    font-size: 18px;
     font-family: "Bonbon";
-    cursor: pointer;
+    font-weight: 600;
 }
-
-.center-2 {
-    border: 1px solid rebeccapurple;
-}
-
-.center-3 {
-    border: 1px solid rebeccapurple;
-}
-
-.center-4 {
-    border: 1px solid rebeccapurple;
+.sign-up a {
+    text-decoration: none;
+    color: cornsilk;
 }
 
 .footer {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
+    background-color: thistle;
+    padding: 10px 0;
 }
